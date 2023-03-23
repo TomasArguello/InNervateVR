@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: f12a6c3161ec23a4299c69247bd5c8e7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Column
+    100002: column
+    100004: Column 1
+    100006: Column 2
+    100008: Column 3
+    100010: Column 4
+    100012: Column 5
+    100014: Column 6
+    100016: Column 7
+    100018: Column_1
+    100020: Column_2
+    100022: Column_3
+    100024: Column_4
+    100026: Column_5
+    100028: Column_6
+    100030: Column_7
+    100032: Column_8
+    100034: Column_Light
+    100036: Column_Light 1
+    100038: Column_Light 2
+    100040: Column_Light 3
+    100042: Column_Light 4
+    100044: Column_Light 5
+    100046: Column_Light 6
+    100048: Column_Light 7
+    100050: door
+    100052: door_left
+    100054: doorRight
+    100056: frame
+    100058: mirror
+    100060: mirror_frame
+    100062: mirror_lightCasing
+    100064: mirror_lights
+    100066: mirror_surface
+    100068: platform01
+    100070: room
+    100072: room01
+    100074: //RootNode
+    400000: Column
+    400002: column
+    400004: Column 1
+    400006: Column 2
+    400008: Column 3
+    400010: Column 4
+    400012: Column 5
+    400014: Column 6
+    400016: Column 7
+    400018: Column_1
+    400020: Column_2
+    400022: Column_3
+    400024: Column_4
+    400026: Column_5
+    400028: Column_6
+    400030: Column_7
+    400032: Column_8
+    400034: Column_Light
+    400036: Column_Light 1
+    400038: Column_Light 2
+    400040: Column_Light 3
+    400042: Column_Light 4
+    400044: Column_Light 5
+    400046: Column_Light 6
+    400048: Column_Light 7
+    400050: door
+    400052: door_left
+    400054: doorRight
+    400056: frame
+    400058: mirror
+    400060: mirror_frame
+    400062: mirror_lightCasing
+    400064: mirror_lights
+    400066: mirror_surface
+    400068: platform01
+    400070: room
+    400072: room01
+    400074: //RootNode
+    2100000: walls_MAT
+    2100002: platform_MAT
+    2100004: mirror_frame_MAT1
+    2100006: mirror_lightCasings_MAT1
+    2100008: mirror_surface_MAT1
+    2100010: mirror_lights_MAT1
+    2100012: column_MAT
+    2100014: column_light_MAT
+    2100016: door_MAT
+    2300000: Column
+    2300002: Column 1
+    2300004: Column 2
+    2300006: Column 3
+    2300008: Column 4
+    2300010: Column 5
+    2300012: Column 6
+    2300014: Column 7
+    2300016: Column_Light
+    2300018: Column_Light 1
+    2300020: Column_Light 2
+    2300022: Column_Light 3
+    2300024: Column_Light 4
+    2300026: Column_Light 5
+    2300028: Column_Light 6
+    2300030: Column_Light 7
+    2300032: door_left
+    2300034: doorRight
+    2300036: frame
+    2300038: mirror_frame
+    2300040: mirror_lightCasing
+    2300042: mirror_lights
+    2300044: mirror_surface
+    2300046: platform01
+    2300048: room01
+    3300000: Column
+    3300002: Column 1
+    3300004: Column 2
+    3300006: Column 3
+    3300008: Column 4
+    3300010: Column 5
+    3300012: Column 6
+    3300014: Column 7
+    3300016: Column_Light
+    3300018: Column_Light 1
+    3300020: Column_Light 2
+    3300022: Column_Light 3
+    3300024: Column_Light 4
+    3300026: Column_Light 5
+    3300028: Column_Light 6
+    3300030: Column_Light 7
+    3300032: door_left
+    3300034: doorRight
+    3300036: frame
+    3300038: mirror_frame
+    3300040: mirror_lightCasing
+    3300042: mirror_lights
+    3300044: mirror_surface
+    3300046: platform01
+    3300048: room01
+    4300000: room01
+    4300002: platform01
+    4300004: mirror_frame
+    4300006: mirror_lightCasing
+    4300008: mirror_surface
+    4300010: mirror_lights
+    4300012: Column
+    4300014: Column_Light
+    4300016: Column
+    4300018: Column_Light
+    4300020: Column
+    4300022: Column_Light
+    4300024: Column
+    4300026: Column_Light
+    4300028: Column
+    4300030: Column_Light
+    4300032: Column
+    4300034: Column_Light
+    4300036: Column
+    4300038: Column_Light
+    4300040: Column
+    4300042: Column_Light
+    4300044: frame
+    4300046: doorRight
+    4300048: door_left
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Materials/PlayerHead.mat
+    - Assets/Materials/PlayerHead.mat.meta
+    - Assets/Photon/PhotonChat/Code.meta
+    - Assets/Photon/PhotonChat/Code/ChannelCreationOptions.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatAppSettings.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatChannel.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatClient.cs
+    - Assets/Photon/PhotonChat/Code/ChatClient.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatDisconnectCause.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatEventCode.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatOperationCode.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatParameterCode.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatPeer.cs
+    - Assets/Photon/PhotonChat/Code/ChatPeer.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatState.cs.meta
+    - Assets/Photon/PhotonChat/Code/ChatUserStatus.cs.meta
+    - Assets/Photon/PhotonChat/Code/IChatClientListener.cs.meta
+    - Assets/Photon/PhotonChat/Code/PhotonChat.asmdef
+    - Assets/Photon/PhotonChat/Code/PhotonChat.asmdef.meta
+    - Assets/Photon/PhotonChat/Code/changes-chat.txt
+    - Assets/Photon/PhotonChat/Code/changes-chat.txt.meta
+    - Assets/Photon/PhotonChat/Demos.meta
+    - Assets/Photon/PhotonChat/Demos/Common.meta
+    - Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs.meta
+    - Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs.meta
+    - Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs.meta
+    - Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/AppSettingsExtensions.cs.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/DemoChat-Scene.unity.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs.meta
+    - Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs.meta
+    - Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.dll
+    - Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.pdb
+    - Assets/Photon/PhotonLibs/Photon3Unity3D.dll
+    - Assets/Photon/PhotonLibs/Photon3Unity3D.pdb
+    - Assets/Photon/PhotonLibs/Photon3Unity3D.xml
+    - Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs.meta
+    - Assets/Photon/PhotonLibs/WebSocket/WebSocket.jslib
+    - Assets/Photon/PhotonLibs/changes-library.txt
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.deps.json
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml
+    - Assets/Photon/PhotonRealtime/Code.meta
+    - Assets/Photon/PhotonRealtime/Code/AppSettings.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/CustomTypesUnity.cs
+    - Assets/Photon/PhotonRealtime/Code/CustomTypesUnity.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/Extensions.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/FriendInfo.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs
+    - Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+    - Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/PhotonPing.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/PhotonPingClasses.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef.meta
+    - Assets/Photon/PhotonRealtime/Code/Player.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/Region.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/RegionHandler.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/Room.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/RoomInfo.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/SupportLogger.cs
+    - Assets/Photon/PhotonRealtime/Code/SupportLogger.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/Unity.meta
+    - Assets/Photon/PhotonRealtime/Code/Unity/Editor.meta
+    - Assets/Photon/PhotonRealtime/Code/Unity/Editor/AccountService.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/Unity/Editor/PhotonEditorUtils.cs
+    - Assets/Photon/PhotonRealtime/Code/Unity/Editor/PhotonEditorUtils.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/Unity/PhotonAppSettings.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/WebRpc.cs.meta
+    - Assets/Photon/PhotonRealtime/Code/changes-realtime.txt
+    - Assets/Photon/PhotonRealtime/Code/changes-realtime.txt.meta
+    - Assets/Photon/PhotonRealtime/Demos.meta
+    - Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing.meta
+    - Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs.meta
+    - Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/DemoLoadBalancing-Scene.unity.meta
+    - Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/Jura-Medium-LB.ttf.meta
+    - Assets/Photon/PhotonUnityNetworking/Code.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/CustomTypes.cs
+    - Assets/Photon/PhotonUnityNetworking/Code/CustomTypes.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettings.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/LICENSE.txt.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/ReorderableListResources.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/ServerSettingsInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/Views.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/MonoBehaviourPunEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonAnimatorViewEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Enums.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Interfaces.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPhotonViewCallbacks.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPunCallbacks.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/ServerSettings.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Utilities.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Utilities/NestedComponentUtilities.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Views.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbodyView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs
+    - Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/ParticleAfterburner.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/WhiteSmooth.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/WhiteUnlit.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/FlyerAsteroidB.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/LaserBolt.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/Asteroid.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/FlyerAsteroid1.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipGlow.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipHull.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Spaceship.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/Bullet.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerListEntry.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerOverviewEntry.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/RoomListEntry.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/BigAsteroid.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/SmallAsteroid.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/Spaceship.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes/DemoAsteroids-GameScene.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes/DemoAsteroids-LobbyScene.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/AsteroidsGame.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game/Asteroid.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game/AsteroidsGameManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game/Bullet.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game/PlayerOverviewPanel.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game/Spaceship.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/LobbyMainPanel.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/LobbyTopPanel.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/PlayerListEntry.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/RoomListEntry.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerAsteroidEmissive.tif.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipAlbedo.tif.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipOcclusion.tif.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/DemoHub-Scene.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunStartup.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Scripts.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Scripts/DemoHubManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Scripts/ToDemoHubButton.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/toHub.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/LightGreen.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Orange.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Red.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Yellow.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Procedural-Scene.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/Block.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/Cluster.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/IngameControlPanel.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/Noise.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/ProceduralController.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/WorldGenerator.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Copyrights.txt.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/_defaultMat.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/bark.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/grass.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/grey.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/red.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/road.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/tankco.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/wall.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Materials/white.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Textures.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/Textures/tankco.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/billboardLower.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/flagGreen.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/rail.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/roadCornerSmall.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/roadCornerSmallBorder.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/roadRampLongCurvedWall.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/roadStart.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/roadStartPositions.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/roadStraight.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+      Kit/Models/roadStraightBridgeStart.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/11 - Default.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/13 - Default.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/13 - Default22662.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/13 - Default54.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/20 - Default.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/22 - Default.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/24 - Default.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/No Name.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/car.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/ground_green.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/ground_green232.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/insides_2.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/insides_3.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/leaves_palm_243.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/roof.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/tank.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Materials/windows_2.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models/bush1.FBX.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models/car_1.FBX.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models/car_3.FBX.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models/car_4.FBX.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models/hamvee.FBX.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models/tree_1.FBX.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+      city/Models/tree_6.FBX.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_A.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_B.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_C.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_D.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources/Player Controller.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Bezier.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/BezierControlPointMode.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/BezierCurve.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/BezierSpline.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/BezierCurveInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/BezierSplineInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/LineInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Line.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/SplinePosition.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/SplineWalker.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/PlayerControl.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/SlotLanes.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/SlotRacerSplashScreen.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene/LightingData.asset.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene/ReflectionProbe-0.exr.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Animator.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Animator/Kyle
+      Robot.controller.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/Red
+      Beam.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureGreen12x.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureRed12x.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureYellow12x.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Demo Intro
+      UI.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Game Manager.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Player
+      UI.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Quit Room
+      Button.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Resources.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Resources/My Robot
+      Kyle -done-.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 1.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 2.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 3.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 4.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/CameraWork.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/LoaderAnime.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerAnimatorManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerNameInputField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerUI.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms/ConnectToRegionUIForm.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms/CreateRoomUiForm.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms/LoadLevelUIForm.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms/SetRoomCustomPropertyUIForm.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms/UserIdUiForm.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Help Button.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Tab Toggle.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/PunCockpit-Scene.unity.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/PunCockpit.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/AutoSyncSceneToggle.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/BackgroundTimeOutField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/CrcCheckToggle.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/CurrentRoom.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/CurrentRoom/CurrentRoomIsOpenToggle.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/CurrentRoom/CurrentRoomIsVisibleToggle.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/DocLinkButton.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/GameVersionField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/BoolInputField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/IntInputField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/StringInputField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/ToggleExpand.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/LayoutElementMatchSize.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/NickNameField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/OnlineDocButton.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/SendRateField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/SendRateOnSerializeField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Controllers.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Controllers/PlayerDetailsController.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/InfosPanelPlaceholder.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/FriendListCell.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/FriendListView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/PlayerListCell.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/PlayerListView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/PropertyCell.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/RegionListCell.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/RegionListView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/RoomListCell.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/RoomListView.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/PropertyFields.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/PropertyFields/UserIdField.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/AppVersionProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/BestRegionInPrefsProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CloudRegionProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfPlayersInRoomProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfPlayersOnMasterProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfPlayersProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfRoomsProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomAutoCleanupProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomEmptyRoomTtlProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomExpectedUsersProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsOfflineProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsOpenProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsVisibleProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomMasterClientIdProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomMaxPlayersProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomNameProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPlayerCountProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPlayerTtlProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPropertiesListedInLobbyProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/GameVersionProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/IsConnectedAndReadyProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/IsConnectedProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/OfflineModeProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/PingProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/PropertyListenerBase.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/ServerAddressProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/ServerProperty.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ScoreHelper.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ThirdParty.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ThirdParty/PunCockpitEmbed.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidCrouch.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/EyesMaterial.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SkinMaterial.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SuitMaterial.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TeethMaterial.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TongueMaterial.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animator.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animator/ThirdPersonAnimatorController.controller.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Gradient.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/PlayerDiamond.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Robot_Color.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleMaterial.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleTexture.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue12x.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureRed.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Models.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Models/Pointer.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Models/Robot Kyle.fbx.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/PointerPrefab.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Button Regular.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Toggle Regular.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Tooltip.prefab.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts/DocLinks.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts/ThirdPersonCharacter.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts/ThirdPersonUserControl.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/3dText.shader.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxBright.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxOrange.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxOrangeRed.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxText.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxTextHover.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Flat-Material.mat.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Medium.ttf.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Orbitron Black.ttf.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/RoundedBox.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Toggle.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleHover.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOn.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOnHover.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/eurof35.ttf.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/eurof_tt.txt.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Gradient.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Robot_Color.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Robot_Normal.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitCircleTexture.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTexture.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureBlue.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureRed.png.meta
+    - Assets/Photon/PhotonUnityNetworking/Demos/WebRpcImplementationExample.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/CullAreaEditor.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonLagSimulationGui.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PointedAtGameObjectInfo.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonTeamsManagerInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PlayerNumberingInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PhotonTeamsManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView/SmoothSyncMovement.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/ConnectAndJoinRandom.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/ButtonInsideScrollList.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/EventSystemSpawner.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/OnPointerOverTooltip.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs.meta
+    - Assets/Photon/PhotonUnityNetworking/changelog.txt
+    - Assets/Photon/PhotonUnityNetworking/changelog.txt.meta
+    - Assets/Photon/PhotonUnityNetworking/link.xml.meta
+    - Assets/Photon/PhotonUnityNetworking/readme.txt.meta
+    - Assets/Photon/PhotonVoice-Documentation.chm
+    - Assets/Photon/PhotonVoice-Documentation.chm.meta
+    - Assets/Photon/PhotonVoice-Documentation.pdf
+    - Assets/Photon/PhotonVoice-Documentation.pdf.meta
+    - Assets/Photon/PhotonVoice.meta
+    - Assets/Photon/PhotonVoice/Code.meta
+    - Assets/Photon/PhotonVoice/Code/AudioChangesHandler.cs
+    - Assets/Photon/PhotonVoice/Code/AudioChangesHandler.cs.meta
+    - Assets/Photon/PhotonVoice/Code/AudioInEnumeratorEx.cs
+    - Assets/Photon/PhotonVoice/Code/AudioInEnumeratorEx.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Editor.meta
+    - Assets/Photon/PhotonVoice/Code/Editor/AudioChangesHandlerEditor.cs
+    - Assets/Photon/PhotonVoice/Code/Editor/AudioChangesHandlerEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Editor/PhotonVoice.Editor.asmdef
+    - Assets/Photon/PhotonVoice/Code/Editor/PhotonVoice.Editor.asmdef.meta
+    - Assets/Photon/PhotonVoice/Code/Editor/PhotonVoiceEditorUtils.cs
+    - Assets/Photon/PhotonVoice/Code/Editor/PhotonVoiceEditorUtils.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Editor/RecorderEditor.cs
+    - Assets/Photon/PhotonVoice/Code/Editor/RecorderEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Editor/SpeakerEditor.cs
+    - Assets/Photon/PhotonVoice/Code/Editor/SpeakerEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Editor/VoiceConnectionEditor.cs
+    - Assets/Photon/PhotonVoice/Code/Editor/VoiceConnectionEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Editor/WebRtcAudioDspEditor.cs
+    - Assets/Photon/PhotonVoice/Code/Editor/WebRtcAudioDspEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Fusion.meta
+    - Assets/Photon/PhotonVoice/Code/Fusion/FusionVoiceBridge.cs
+    - Assets/Photon/PhotonVoice/Code/Fusion/FusionVoiceBridge.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Fusion/PhotonVoice.Fusion.asmdef
+    - Assets/Photon/PhotonVoice/Code/Fusion/PhotonVoice.Fusion.asmdef.meta
+    - Assets/Photon/PhotonVoice/Code/Fusion/VoiceNetworkObject.cs
+    - Assets/Photon/PhotonVoice/Code/Fusion/VoiceNetworkObject.cs.meta
+    - Assets/Photon/PhotonVoice/Code/ILoggable.cs
+    - Assets/Photon/PhotonVoice/Code/ILoggable.cs.meta
+    - Assets/Photon/PhotonVoice/Code/NativeAndroidMicrophoneSettings.cs
+    - Assets/Photon/PhotonVoice/Code/NativeAndroidMicrophoneSettings.cs.meta
+    - Assets/Photon/PhotonVoice/Code/PUN.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/Editor.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/Editor/PhotonVoice.PUN.Editor.asmdef
+    - Assets/Photon/PhotonVoice/Code/PUN/Editor/PhotonVoice.PUN.Editor.asmdef.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/Editor/PhotonVoiceNetworkEditor.cs
+    - Assets/Photon/PhotonVoice/Code/PUN/Editor/PhotonVoiceNetworkEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/PhotonVoice.PUN.asmdef
+    - Assets/Photon/PhotonVoice/Code/PUN/PhotonVoice.PUN.asmdef.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceNetwork.cs
+    - Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceNetwork.cs.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs
+    - Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts.meta
+    - Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs
+    - Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs.meta
+    - Assets/Photon/PhotonVoice/Code/PhotonVoice.asmdef
+    - Assets/Photon/PhotonVoice/Code/PhotonVoice.asmdef.meta
+    - Assets/Photon/PhotonVoice/Code/PlaybackDelaySettings.cs
+    - Assets/Photon/PhotonVoice/Code/PlaybackDelaySettings.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Recorder.cs
+    - Assets/Photon/PhotonVoice/Code/Recorder.cs.meta
+    - Assets/Photon/PhotonVoice/Code/RemoteVoiceLink.cs
+    - Assets/Photon/PhotonVoice/Code/RemoteVoiceLink.cs.meta
+    - Assets/Photon/PhotonVoice/Code/Speaker.cs
+    - Assets/Photon/PhotonVoice/Code/Speaker.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/AudioEncoding.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/AudioEncoding.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/AudioSubTypes.Utils.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/AudioSubTypes.Utils.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/AudioSybTypes.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/AudioSybTypes.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/ChannelMask.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/ChannelMask.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/Extensions.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/Extensions.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IAudioSource.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IAudioSource.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IReadableAudioSource.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IReadableAudioSource.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IWaveSource.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IWaveSource.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IWriteable.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/IWriteable.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveFormat.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveFormat.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveFormatExtensible.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveFormatExtensible.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/license.md
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/license.md.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/ConnectAndJoin.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/ConnectAndJoin.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/Editor.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/Editor/ConnectAndJoinEditor.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/Editor/ConnectAndJoinEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/Editor/PhotonVoice.Utilities.Editor.asmdef
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/Editor/PhotonVoice.Utilities.Editor.asmdef.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifier.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifier.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifierEditor.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifierEditor.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifierFloat.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifierFloat.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifierShort.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicAmplifier/MicAmplifierShort.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicrophonePermission.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/MicrophonePermission.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/PhotonVoiceLagSimulationGui.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/PhotonVoiceLagSimulationGui.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/PhotonVoiceStatsGui.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/PhotonVoiceStatsGui.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/SaveIncomingStreamToFile.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/SaveIncomingStreamToFile.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/SaveOutgoingStreamToFile.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/SaveOutgoingStreamToFile.cs.meta
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/TestTone.cs
+    - Assets/Photon/PhotonVoice/Code/UtilityScripts/TestTone.cs.meta
+    - Assets/Photon/PhotonVoice/Code/VoiceComponent.cs
+    - Assets/Photon/PhotonVoice/Code/VoiceComponent.cs.meta
+    - Assets/Photon/PhotonVoice/Code/VoiceConnection.cs
+    - Assets/Photon/PhotonVoice/Code/VoiceConnection.cs.meta
+    - Assets/Photon/PhotonVoice/Code/VoiceLogger.cs
+    - Assets/Photon/PhotonVoice/Code/VoiceLogger.cs.meta
+    - Assets/Photon/PhotonVoice/Code/WebRtcAudioDsp.cs
+    - Assets/Photon/PhotonVoice/Code/WebRtcAudioDsp.cs.meta
+    - Assets/Photon/PhotonVoice/Demos.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/GroundMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/GroundMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/PointerDownMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/PointerDownMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/PointerMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/PointerMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/PointerUpMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Materials/PointerUpMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/Pointer.fbx
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/Pointer.fbx.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/PointerDownPrefab.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/PointerDownPrefab.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/PointerPrefab.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/PointerPrefab.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/PointerUpPrefab.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Prefabs/PointerUpPrefab.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Resources.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Resources/Character.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Resources/Character.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scenes.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scenes/ProximityVoiceChat.unity
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scenes/ProximityVoiceChat.unity.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/ChangeColor.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/ChangeColor.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/ChangeName.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/ChangeName.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/PointersController.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/PointersController.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/ProximityVoiceTrigger.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/ProximityVoiceTrigger.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceMinimal.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceMinimal/DemoVoiceMinimal-Scene.unity
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceMinimal/DemoVoiceMinimal-Scene.unity.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Animation.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Animation/HellephantAnimatorOverrideController.overrideController
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Animation/HellephantAnimatorOverrideController.overrideController.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Animation/PlayerAnimatorController.controller
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Animation/PlayerAnimatorController.controller.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Animation/ZomBunnyAOC.overrideController
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Animation/ZomBunnyAOC.overrideController.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Pop-J_Fairba-8421_hifi.mp3
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Pop-J_Fairba-8421_hifi.mp3.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Pop-J_Fairba-8421_hifi.mp3.txt
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Pop-J_Fairba-8421_hifi.mp3.txt.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Reminder-public_d-291_hifi.mp3
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Reminder-public_d-291_hifi.mp3.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Reminder-public_d-291_hifi.mp3.txt
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Audio/Reminder-public_d-291_hifi.mp3.txt.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/DemoVoicePun-Scene.unity
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/DemoVoicePun-Scene.unity.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Fonts.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Fonts/Orbitron Black.ttf
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Fonts/Orbitron Black.ttf.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Fonts/Orbitron Black.txt
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Fonts/Orbitron Black.txt.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/EyesMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/EyesMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/Gradient.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/Gradient.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/Ground.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/Ground.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/HellephantMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/HellephantMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/PlayerMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/PlayerMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/SkyBox-Voice.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/SkyBox-Voice.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/ZombearMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/ZombearMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/ZombunnyMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Materials/ZombunnyMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Hellephant.fbx
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Hellephant.fbx.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Materials.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Materials/GunMaterial.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Materials/GunMaterial.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Player.fbx
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Player.fbx.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/ZomBear.fbx
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/ZomBear.fbx.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Zombunny.fbx
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Models/Characters/Zombunny.fbx.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Prefabs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Prefabs/PushToTalkPrivateButton.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Prefabs/PushToTalkPrivateButton.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy-Local.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy-Local.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy-Remote.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy-Remote.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant-Local.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant-Local.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant-Remote.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant-Remote.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear-Local.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear-Local.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear-Remote.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear-Remote.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny-Local.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny-Local.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny-Remote.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny-Remote.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BetterToggle.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BetterToggle.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ChangePOV.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ChangePOV.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/CharacterInstantiation.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/CharacterInstantiation.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/FirstPersonController.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/FirstPersonController.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/Highlighter.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/Highlighter.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/MouseLookHelper.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/MouseLookHelper.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/OrthographicController.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/OrthographicController.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/SoundsForJoinAndLeave.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/SoundsForJoinAndLeave.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ThirdPersonController.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ThirdPersonController.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/VoiceDemoUI.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/VoiceDemoUI.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Prefabs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Environment.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Environment.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/13 - Default22662.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/13 - Default22662.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/13 - Default54.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/13 - Default54.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/20 - Default.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/20 - Default.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/22 - Default.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/22 - Default.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/24 - Default.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/24 - Default.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/ground_green232.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Materials/ground_green232.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/Materials.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/Materials/insides_2.mat
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/Materials/insides_2.mat.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/bush1.FBX
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/bush1.FBX.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/tree_1.FBX
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/tree_1.FBX.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/tree_6.FBX
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Models/tree_6.FBX.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantDiffuse.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantDiffuse.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantEmissive.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantEmissive.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantNormals.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantNormals.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantOcclusion.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantOcclusion.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantSpecular.tif
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/HellephantSpecular.tif.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerDiffuse.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerDiffuse.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerNormals.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerNormals.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerOcclusion.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerOcclusion.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerSpecular.tif
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/PlayerSpecular.tif.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/SkyBox-Voice.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/SkyBox-Voice.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/UIPanel.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/UIPanel.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearDiffuse.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearDiffuse.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearEmission.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearEmission.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearNormals.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearNormals.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearOcclusion.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearOcclusion.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearSpecular.tif
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBearSpecular.tif.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyDiffuse.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyDiffuse.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyEmissive.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyEmissive.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyNormals.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyNormals.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyOcclusion.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnyOcclusion.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnySpecular.tif
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/ZomBunnySpecular.tif.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speaker.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speaker.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speech-bubble.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speech-bubble.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/DemoVoice.unity
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/DemoVoice.unity.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/Chaoserate.mp3
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/Chaoserate.mp3.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/Gradient.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/Gradient.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/OSR_us_000_0060_8k.wav
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/OSR_us_000_0060_8k.wav.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/barsHorizontal.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/barsHorizontal.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone-off.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone-off.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speaker.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speaker.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speech-bubble.png
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speech-bubble.png.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/Left Panel.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/Left Panel.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/MenuHeader.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/MenuHeader.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/RemoteSpeakerPrefab.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/RemoteSpeakerPrefab.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/Stats Bar.prefab
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/Stats Bar.prefab.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/Apache License.txt
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/Apache License.txt.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/RobotoCondensed-Bold.ttf
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/RobotoCondensed-Bold.ttf.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/RobotoCondensed-Light.ttf
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/RobotoCondensed-Light.ttf.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/RobotoCondensed-Regular.ttf
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/RobotoCondensed-Regular.ttf.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/BackgroundMusicController.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/BackgroundMusicController.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/CodecSettingsUI.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/CodecSettingsUI.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/DemoVoiceUI.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/DemoVoiceUI.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/MicrophoneDropdownFiller.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/MicrophoneDropdownFiller.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/PhotonDemoExtensions.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/PhotonDemoExtensions.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/RemoteSpeakerUI.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/RemoteSpeakerUI.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/SidebarToggle.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/SidebarToggle.cs.meta
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs
+    - Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs.meta
+    - Assets/Photon/PhotonVoice/Icons.meta
+    - Assets/Photon/PhotonVoice/Icons/voice-0016.png
+    - Assets/Photon/PhotonVoice/Icons/voice-0016.png.meta
+    - Assets/Photon/PhotonVoice/Icons/voice-0032.png
+    - Assets/Photon/PhotonVoice/Icons/voice-0032.png.meta
+    - Assets/Photon/PhotonVoice/Icons/voice-0048.png
+    - Assets/Photon/PhotonVoice/Icons/voice-0048.png.meta
+    - Assets/Photon/PhotonVoice/Icons/voice-0128.png
+    - Assets/Photon/PhotonVoice/Icons/voice-0128.png.meta
+    - Assets/Photon/PhotonVoice/Icons/voice-0256.png
+    - Assets/Photon/PhotonVoice/Icons/voice-0256.png.meta
+    - Assets/Photon/PhotonVoice/Icons/voice-0512.png
+    - Assets/Photon/PhotonVoice/Icons/voice-0512.png.meta
+    - Assets/Photon/PhotonVoice/Icons/voice-1024.png
+    - Assets/Photon/PhotonVoice/Icons/voice-1024.png.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioGen.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioGen.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioInEnumerator.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioInEnumerator.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioOut.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioOut.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioSyncBuffer.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioSyncBuffer.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioUtil.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioUtil.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Device.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Device.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/FrameBuffer.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/FrameBuffer.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/ObjectFactory.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/ObjectFactory.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/ObjectPool.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/ObjectPool.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/OpusCodec.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/OpusCodec.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Bandwidth.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Bandwidth.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Channels.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Channels.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Complexity.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Complexity.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Delay.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/Delay.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/ForceChannels.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/ForceChannels.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusApplicationType.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusApplicationType.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusCtlGetRequest.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusCtlGetRequest.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusCtlSetRequest.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusCtlSetRequest.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusStatusCode.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/OpusStatusCode.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/SamplingRate.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/SamplingRate.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/SignalHint.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/Enums/SignalHint.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusDecoder.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusDecoder.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusEncoder.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusEncoder.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusException.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusException.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusWrapper.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusWrapper.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Platform.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Platform.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/RawCodec.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/RawCodec.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Util.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Util.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Voice.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Voice.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceAudio.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceAudio.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceClient.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceClient.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceCodec.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceCodec.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceFramed.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceFramed.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceInfo.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceInfo.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceSourceAdapter.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceSourceAdapter.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/WebRTCAudioProcessor.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/WebRTCAudioProcessor.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/LoadBalancingTransport.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/LoadBalancingTransport.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/LoadBalancingTransport2.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/LoadBalancingTransport2.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/PhotonTransport.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/PhotonTransport.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/PhotonVoice.API.asmdef
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/PhotonVoice.API.asmdef.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSAudioInChangeNotifier.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSAudioInChangeNotifier.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSAudioInPusher.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSAudioInPusher.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSAudioInReader.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSAudioInReader.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSDeviceEnumerator.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/MacOSDeviceEnumerator.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioInChangeNotifier.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioInChangeNotifier.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioInPusher.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioInPusher.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioInReader.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioInReader.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioSession.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Apple/iOSAudioSession.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/FMOD.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/FMOD/FMODAudioIn.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/FMOD/FMODAudioIn.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/FMOD/FMODAudioInEnumerator.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/FMOD/FMODAudioInEnumerator.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/FMOD/FMODAudioOut.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/FMOD/FMODAudioOut.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/UWP.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/UWP/Audio.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/UWP/Audio.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/UWP/CaptureDevice.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/UWP/CaptureDevice.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Android.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Android/UnityAndroidAudioInAEC.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Android/UnityAndroidAudioInAEC.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/AudioClipWrapper.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/AudioClipWrapper.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/AudioInEnumerator.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/AudioInEnumerator.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/AudioOutCapture.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/AudioOutCapture.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Common.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Common.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/DeviceEnumerator.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/DeviceEnumerator.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Logger.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Logger.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/MicWrapper.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/MicWrapper.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/MicWrapperPusher.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/MicWrapperPusher.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/UnityAudioOut.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/UnityAudioOut.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/UnityMicrophone.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/UnityMicrophone.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Windows.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Windows/DeviceEnumerator.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Windows/DeviceEnumerator.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Windows/WindowsAudioIn.cs
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Windows/WindowsAudioIn.cs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/readme.txt
+    - Assets/Photon/PhotonVoice/PhotonVoiceApi/readme.txt.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/arm64-v8a.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/arm64-v8a/libopus_egpv.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/arm64-v8a/libopus_egpv.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/arm64-v8a/libwebrtc-audio.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/arm64-v8a/libwebrtc-audio.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/armeabi-v7a.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/armeabi-v7a/libopus_egpv.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/armeabi-v7a/libopus_egpv.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/armeabi-v7a/libwebrtc-audio.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/armeabi-v7a/libwebrtc-audio.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/audioinaec.aar
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/audioinaec.aar.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/x86.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/x86/libopus_egpv.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/x86/libopus_egpv.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/x86/libwebrtc-audio.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Android/libs/x86/libwebrtc-audio.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Linux.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Linux/x86.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Linux/x86/libopus_egpv.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Linux/x86/libopus_egpv.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Linux/x86_64.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Linux/x86_64/libopus_egpv.so
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/Linux/x86_64/libopus_egpv.so.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/OSX.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/OSX/AudioIn.bundle
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/OSX/AudioIn.bundle.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/OSX/opus_egpv.bundle
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/OSX/opus_egpv.bundle.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/OSX/webrtc-audio.bundle
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/OSX/webrtc-audio.bundle.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/Photon.Voice.UWP.MediaExtensions.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/Photon.Voice.UWP.MediaExtensions.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/opus_egpv.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/opus_egpv.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/webrtc-audio.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/webrtc-audio.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/Photon.Voice.UWP.winmd
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/Photon.Voice.UWP.winmd.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64/Photon.Voice.UWP.MediaExtensions.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64/Photon.Voice.UWP.MediaExtensions.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64/opus_egpv.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64/opus_egpv.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64/webrtc-audio.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64/webrtc-audio.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86/Photon.Voice.UWP.MediaExtensions.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86/Photon.Voice.UWP.MediaExtensions.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86/opus_egpv.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86/opus_egpv.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86/webrtc-audio.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86/webrtc-audio.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WebRTC-LICENSE.txt
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/WebRTC-LICENSE.txt.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioIn.h
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioIn.h.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioIn.mm
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioIn.mm.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioInChange.h
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioInChange.h.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioInChange.mm
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/AudioInChange.mm.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/iOSOpusInteropHelper.c
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/Photon/iOSOpusInteropHelper.c.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/libopus_egpv.a
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/libopus_egpv.a.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/libwebrtc-audio.a
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/iOS/libwebrtc-audio.a.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/opus-COPYING
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/opus-COPYING.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86/AudioIn.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86/AudioIn.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86/opus_egpv.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86/opus_egpv.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86/webrtc-audio.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86/webrtc-audio.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/AudioIn.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/AudioIn.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/opus_egpv.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/opus_egpv.dll.meta
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/webrtc-audio.dll
+    - Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/webrtc-audio.dll.meta
+    - Assets/Photon/PhotonVoice/changes-voice.txt
+    - Assets/Photon/PhotonVoice/changes-voice.txt.meta
+    - Assets/Prefabs/Generic VR player.prefab
+    - Assets/Prefabs/Generic VR player.prefab.meta
+    - Assets/Prefabs/OVRCameraRig.prefab
+    - Assets/Resources/Generic VR player.prefab
+    - Assets/Resources/Generic VR player.prefab.meta
+    - Assets/Resources/OVRCameraRig.prefab
+    - Assets/Resources/OVRCameraRig.prefab.meta
+    - Assets/Scenes/InNervateVR/InNervateVR.unity
+    - Assets/Scripts/AustinsScripts/Diagnosing/InteractiveQuiz.cs
+    - Assets/Scripts/AustinsScripts/Interaction/GeneralInteraction.cs
+    - Assets/Scripts/AustinsScripts/LabelModule/InteractionLabel.cs
+    - Assets/Scripts/AustinsScripts/LabelModule/InteractionMuscleLabel.cs
+    - Assets/Scripts/AustinsScripts/LabelModule/InteractionMuscleLabelManager.cs
+    - Assets/Scripts/AustinsScripts/Managers/MenuManager.cs
+    - Assets/Scripts/AustinsScripts/Managers/NerveCuttingManager.cs
+    - Assets/Scripts/AustinsScripts/Managers/PlatformManager.cs
+    - Assets/Scripts/AustinsScripts/NerveCuttingModule/InteractiveNerveAP.cs
+    - Assets/Scripts/AustinsScripts/NerveCuttingModule/MuscleOpacityController.cs
+    - Assets/Scripts/HandleMuscleGlow.cs
+    - Assets/Scripts/HealthyLeg.cs
+    - Assets/Scripts/InnervateVRMultiplayerSync.cs
+    - Assets/Scripts/InnervateVRMultiplayerSync.cs.meta
+    - Assets/Scripts/InteractiveArrowAP.cs
+    - Assets/Scripts/Network/NetworkManager.cs
+    - Assets/Scripts/Network/NetworkManagerEditorScript.cs
+    - Assets/Scripts/Network/RoomCreator.cs
+    - Assets/Scripts/Network/RoomNetworkManager.cs
+    - Assets/Scripts/RotateObject.cs
+    - Assets/Scripts/XR Rig Scripts.meta
+    - Assets/Scripts/XR Rig Scripts/AvatarInputConverter.cs
+    - Assets/Scripts/XR Rig Scripts/AvatarInputConverter.cs.meta
+    - Assets/Scripts/XR Rig Scripts/MultiplayerVRSynchronization.cs
+    - Assets/Scripts/XR Rig Scripts/MultiplayerVRSynchronization.cs.meta
+    - Assets/Scripts/XR Rig Scripts/PlayerNetworkSetup.cs
+    - Assets/Scripts/XR Rig Scripts/PlayerNetworkSetup.cs.meta
+    - Assets/Scripts/legAnimController.cs
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdle.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdleJumpUp.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidJumpAndFall.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidMidAir.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRun.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurn.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurnSharp.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidStandTurn.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalk.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurn.fbx.meta
+    - Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurnSharp.fbx.meta
+    - Assets/XRI.meta
+    - Assets/XRI/Settings.meta
+    - Assets/XRI/Settings/Resources.meta
+    - Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+    - Assets/XRI/Settings/Resources/InteractionLayerSettings.asset.meta
+    - Assets/XRI/Settings/XRInteractionEditorSettings.asset
+    - Assets/XRI/Settings/XRInteractionEditorSettings.asset.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/ProjectSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
