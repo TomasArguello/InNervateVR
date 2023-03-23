@@ -1,2 +1,3 @@
 # InNervateVR
 A Soft Interaction Lab VR project that focuses on the anatomy of a canine leg.
+The application allows users to learn about the muscles, bones and nerves of the leg. There are three main modules, each with their own form of interactivity. The first module lets users select from muscles, bones and nerves and will provide a description of the selected component. The second module allows users to cut nerves in order to observe how the leg will be affected in terms of walking. The last module is a quiz that lets users test their knowledge when it comes to cut nerves and their resutling walk animation. 
